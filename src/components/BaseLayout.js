@@ -1,5 +1,4 @@
 import React from 'react'
-import ReactDOM from 'react-dom'
 import { Switch, Route, NavLink } from 'react-router-dom'
 import Home from './Home.js'
 import About from './About.js'

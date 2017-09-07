@@ -1,6 +1,4 @@
 import React from 'react'
-import ReactDOM from 'react-dom'
-import { Switch, Route, Link } from 'react-router-dom'
 
 const Contact = () =>
   <div className="contact">
