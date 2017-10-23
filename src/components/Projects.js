@@ -32,7 +32,7 @@ const Projects = () =>
     <div className="synthimagediv">
       <img src={Worste} className="projectImages" />
       <a href="https://github.com/shaunhailey/worststore" target="_blank" rel="noopener noreferrer">
-        Worste Store
+        Worste Store on Github
       </a>
     </div>
     <h3>Mars Rover</h3>
@@ -44,7 +44,7 @@ const Projects = () =>
     <div className="synthimagediv">
       <img src={Mars} className="projectImages" />
       <a href="https://github.com/shaunhailey/marsrover" target="_blank" rel="noopener noreferrer">
-        Mars Rover
+        Mars Rover on Github
       </a>
     </div>
   </div>
