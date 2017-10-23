@@ -49,7 +49,7 @@ h1 {
 .github-button {
   background: url(../Images/GitHub-Mark-32px.png);
   background-repeat: no-repeat;
-  background-color: white;
+  background-color: #d6d6d6;
   background-position: center;
   width: 40px;
   height: 40px;
@@ -60,13 +60,9 @@ h1 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-image: url(../Images/foldedhornreversedcropped.jpg);
-  background-repeat: no-repeat;
-  background-size: 29%;
-  background-position: 50% 50%;
   height: 100vh;
   text-shadow: rgb(128, 134, 142) 1px 1px;
-  background-color: black;
+  background-color: rgb(42, 43, 45);
   font-family: 'Raleway', sans-serif;
 }
 .selected {
@@ -77,10 +73,10 @@ h1 {
 nav,
 nav-link {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-direction: row;
   color: rgb(235, 241, 250);
-  background-color: black;
+  background-color: rgb(42, 43, 45);
   color: inherit;
   text-decoration: none;
   text-shadow: rgb(76, 81, 88) 1px 1px;
@@ -105,59 +101,62 @@ a:active {
   text-shadow: rgb(76, 81, 88) 1px 1px;
 }
 .references {
-  background-image: url(../Images/reversedaltec620.jpg);
   color: rgb(235, 241, 250);
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-repeat: no-repeat;
-  background-size: 35%;
-  background-position: bottom;
   height: 100vh;
   text-shadow: rgb(128, 134, 142) 1px 1px;
-  background-color: black;
+  background-color: rgb(42, 43, 45);
   font-family: 'Raleway', sans-serif;
 }
 .about {
-  background-image: url(../Images/hurdygurdyreversed.jpeg);
   color: #e8e8e8;
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-repeat: no-repeat;
-  background-size: 35%;
-  background-position: bottom center;
   height: 100vh;
   text-shadow: rgb(128, 134, 142) 1px 1px;
-  background-color: black;
+  background-color: rgb(42, 43, 45);
   font-family: 'Raleway', sans-serif;
 }
 .portfolio {
-  background-image: url(../Images/ampexslice.jpeg);
   color: #e8e8e8;
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-repeat: no-repeat;
-  background-size: 35%;
-  background-position: center;
   height: 100vh;
   text-shadow: rgb(128, 134, 142) 1px 1px;
-  background-color: black;
+  background-color: rgb(42, 43, 45);
   font-family: 'Raleway', sans-serif;
 }
+.portfolioWrapper {
+  display: flex;
+  flex-direction: column;
+}
+.Projects {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(42, 43, 45);
+}
+.synthimagediv {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+}
+.projectImages {
+  height: 150px;
+  width: 300px;
+}
 .contact {
-  background-image: url(../Images/eardrumreversed.png);
   color: #e8e8e8;
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-repeat: no-repeat;
-  background-size: 25%;
-  background-position: center;
   height: 100vh;
   text-shadow: rgb(128, 134, 142) 1px 1px;
-  background-color: black;
+  background-color: rgb(42, 43, 45);
   font-family: 'Raleway', sans-serif;
 }
 p {
@@ -174,6 +173,6 @@ h2 {
 }
 .github-button,
 .githublink {
-  height: 35px;
-  width: 35px;
+  height: 60px;
+  width: 60px;
 }
