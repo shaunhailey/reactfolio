@@ -1,14 +1,14 @@
 import React from 'react'
 import Projects from './Projects.js'
+import Github from '../Images/GitHub.png'
 
 const Portfolio = () =>
   <div className="portfolioWrapper">
+    <h4>Link to Github</h4>
     <div className="portfolio">
-      <h1>Portfolio</h1>
-      <h3> Github </h3>
       <div className="github-button">
         <a href="https://github.com/shaunhailey" className="githublink" target="_blank" rel="noopener noreferrer">
-          <img src="../Images/GitHub-Mark-32px.png" />
+          <img src={Github} className="gitBut" alt="Link to Github" />
         </a>
       </div>
       <div className="projects">

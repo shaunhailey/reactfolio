@@ -5,6 +5,7 @@ import Mars from '../Images/marsroverscreenshot.png'
 
 const Projects = () =>
   <div className="Projects">
+    <h2>Selected Projects</h2>
     <h3>Synth</h3>
     <p>
       Synth is a browser-based synthesizer utilizing the Tone.js API and Midi.js API. This was my final Demo Day project
@@ -14,7 +15,7 @@ const Projects = () =>
       the ability to save and export the MIDI track for final production in other software.
     </p>
     <div className="synthimagediv">
-      <img src={SynthScreenShot} className="projectImages" />
+      <img src={SynthScreenShot} className="projectImages" alt="project screenshot" />
       <a href="https://shaunhailey.github.io/synth/" target="_blank" rel="noopener noreferrer">
         Synth
       </a>
@@ -30,7 +31,7 @@ const Projects = () =>
       project.
     </p>
     <div className="synthimagediv">
-      <img src={Worste} className="projectImages" />
+      <img src={Worste} className="projectImages" alt="project screenshot" />
       <a href="https://github.com/shaunhailey/worststore" target="_blank" rel="noopener noreferrer">
         Worste Store on Github
       </a>
@@ -42,7 +43,7 @@ const Projects = () =>
       the API data, along with props versus state concepts.
     </p>
     <div className="synthimagediv">
-      <img src={Mars} className="projectImages" />
+      <img src={Mars} className="projectImages" alt="project screenshot" />
       <a href="https://github.com/shaunhailey/marsrover" target="_blank" rel="noopener noreferrer">
         Mars Rover on Github
       </a>

@@ -43,18 +43,10 @@ h1 {
 }
 
 .btn {
-  height: 35px;
-  width: 35px;
+  /*height: 35px;
+  width: 35px;*/
 }
-.github-button {
-  background: url(../Images/GitHub-Mark-32px.png);
-  background-repeat: no-repeat;
-  background-color: #d6d6d6;
-  background-position: center;
-  width: 40px;
-  height: 40px;
-  border: 0;
-}
+
 .homePage {
   color: rgb(235, 241, 250);
   display: flex;
@@ -133,6 +125,9 @@ a:active {
 .portfolioWrapper {
   display: flex;
   flex-direction: column;
+  border-top-style: solid;
+  border-color: black;
+  align-items: center;
 }
 .Projects {
   display: flex;
@@ -171,8 +166,14 @@ li {
 h2 {
   font-size: 18pt;
 }
-.github-button,
-.githublink {
+.github-button {
+  height: 60px;
+  width: 60px;
+}
+.annoyingProblem {
+  margin: 15px;
+}
+.gitBut {
   height: 60px;
   width: 60px;
 }
