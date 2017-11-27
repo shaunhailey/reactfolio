@@ -177,3 +177,7 @@ h2 {
   height: 60px;
   width: 60px;
 }
+.projectLayout {
+  border: 20px rgb(42, 43, 45);
+  border-style: solid none;
+}
