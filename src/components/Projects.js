@@ -10,7 +10,7 @@ const Projects = () =>
     <p>
       Synth is a browser-based synthesizer utilizing the Tone.js API and Midi.js API. This was my final Demo Day project
       post-graduation from The Iron Yard. It remains a work in progress, as I designed it for my own usage as a quick
-      "sketchpad" for laying down basic song structure without the distractions prsent in more fully-featured DAW
+      "sketchpad" for laying down basic song structure without the distractions present in more fully-featured DAW
       software. To fully realize this utility, I intend to add a "draw function", multi-track capability, and finally
       the ability to save and export the MIDI track for final production in other software.
     </p>
@@ -34,18 +34,6 @@ const Projects = () =>
       <img src={Worste} className="projectImages" alt="project screenshot" />
       <a href="https://github.com/shaunhailey/worststore" target="_blank" rel="noopener noreferrer">
         Worste Store on Github
-      </a>
-    </div>
-    <h3>Mars Rover</h3>
-    <p>
-      "Mars Rover" was also created for a class assignment during my Iron Yard tenure. By using the drop down boxes, one
-      can obtain images from the Mars Rover via the Mars Rover API. The goal of the project was to use fetch to obtain
-      the API data, along with props versus state concepts.
-    </p>
-    <div className="synthimagediv">
-      <img src={Mars} className="projectImages" alt="project screenshot" />
-      <a href="https://github.com/shaunhailey/marsrover" target="_blank" rel="noopener noreferrer">
-        Mars Rover on Github
       </a>
     </div>
   </div>
