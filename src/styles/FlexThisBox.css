@@ -1,0 +1,15 @@
+.flexThisBox {
+  display: flex;
+  flex-direction: column;
+}
+
+.flexThisBox1 {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  overflow: hidden;
+}
+
+.flexThisBox2 {
+  display: flex;
+}

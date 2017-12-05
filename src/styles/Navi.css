@@ -1,0 +1,26 @@
+.naviWrapper {
+  display: flex;
+  background-color: #667;
+  flex-wrap: nowrap;
+  flex-direction: row;
+}
+.naviBits1 {
+  border-style: solid;
+  border-color: red;
+  width: 49%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.naviBits2 {
+  border-style: solid;
+  border-color: red;
+  width: 49%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.wtf,
+.wtf2 {
+  width: 100%;
+}

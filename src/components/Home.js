@@ -1,11 +1,17 @@
 import React from 'react'
 import Portfolio from './Portfolio'
+import Contact from './Contact'
+import About from './About'
+import '../styles/FlexThisBox.css'
 
 const Home = () =>
   <div className="homePage">
-    <h1>Shaun M Hailey</h1>
-    <h3 className="annoyingProblem">Front-End Developer</h3>
-    <Portfolio />
+    <div className="flexThisBox">
+      <div className="flexThisBox1">
+        <Contact />
+      </div>
+      <div className="flexThisBox2" />
+    </div>
   </div>
 
 export default Home
