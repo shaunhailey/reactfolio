@@ -4,8 +4,7 @@
   flex-direction: column;
   align-items: center;
   flex-wrap: wrap;
-  text-shadow: rgb(128, 134, 142) 1px 1px;
-  background: linear-gradient(to top, #45484d 0%, #000000 100%);
+  background: linear-gradient(to top, #45484d -200%, #000000 100%);
   font-family: 'Raleway', sans-serif;
   width: 100%;
 }
