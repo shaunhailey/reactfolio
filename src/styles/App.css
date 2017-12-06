@@ -37,13 +37,6 @@
   flex-wrap: nowrap;
 }
 
-.heading {
-  background-color: rgb(42, 43, 45);
-  color: white;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-}
 .headerlist {
   background-color: white;
   display: flex;
@@ -90,6 +83,11 @@ nav-link {
 a:link {
   color: rgb(235, 241, 250);
   text-shadow: rgb(76, 81, 88) 1px 1px;
+  text-align: center;
+  font-weight: lighter;
+  letter-spacing: 5px;
+  font-size: 15px;
+  text-decoration: none;
 }
 a:visited {
   color: rgb(235, 241, 250);
@@ -131,12 +129,6 @@ a:active {
   border-color: black;
   align-items: center;
 }
-.Projects {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background-color: rgb(42, 43, 45);
-}
 .synthimagediv {
   display: flex;
   flex-direction: column-reverse;
@@ -152,7 +144,7 @@ a:active {
   flex-direction: column;
   align-items: center;
   text-shadow: rgb(128, 134, 142) 1px 1px;
-  background-color: rgb(42, 43, 45);
+  background: linear-gradient(to bottom, #45484d -200%, #000000 100%);
   font-family: 'Raleway', sans-serif;
 }
 .digits {

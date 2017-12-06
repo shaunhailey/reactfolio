@@ -1,0 +1,35 @@
+.heading {
+  background-color: rgb(42, 43, 45);
+  color: white;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background: linear-gradient(to bottom, #45484d 0%, #000000 100%);
+}
+.meImages {
+  width: 28%;
+  border-style: groove;
+  border-width: thin;
+}
+.fillerSpace {
+  background-color: rgb(42, 43, 45);
+  height: 15em;
+}
+.top {
+  text-align: center;
+  font-weight: lighter;
+  letter-spacing: 5px;
+  font-size: 55px;
+}
+.bottom {
+  text-align: center;
+  font-weight: lighter;
+  letter-spacing: 1px;
+  font-size: 25px;
+}
+.contactInfo {
+  text-align: center;
+  font-weight: lighter;
+  letter-spacing: 3px;
+  font-size: 25px;
+}

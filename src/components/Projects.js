@@ -2,6 +2,7 @@ import React from 'react'
 import SynthScreenShot from '../Images/SynthScreenShot.png'
 import Worste from '../Images/worstescreenshot.png'
 import Mars from '../Images/marsroverscreenshot.png'
+import '../styles/projects.css'
 
 const Projects = () =>
   <div className="Projects">
@@ -36,6 +37,7 @@ const Projects = () =>
         Worste Store on Github
       </a>
     </div>
+    <div className="projectsFoot" />
   </div>
 
 export default Projects

@@ -16,10 +16,8 @@ class NaviBits2 extends React.Component {
 
   render() {
     return (
-      <div className="naviBits2">
-        <div className="buttonThree" onClick={() => this.onClick()}>
-          Select for Sample Projects
-        </div>
+      <div className="naviBits2" onClick={() => this.onClick()}>
+        <div className="buttonThree">Click Here for Sample Projects</div>
         <div className="wtf2">
           {this.state.projectsVisible ? <Projects /> : null}
         </div>

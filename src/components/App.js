@@ -1,7 +1,6 @@
 import React from 'react'
 import '../styles/index.css'
 import '../styles/App.css'
-import BaseLayout from './BaseLayout.js'
 import Heading from './Heading.js'
 import Navi from './Navi.js'
 import NaviBits1 from './NaviBits1.js'
@@ -12,6 +11,8 @@ const App = () =>
     <Heading />
     <div className="naviWrapper">
       <NaviBits1 />
+    </div>
+    <div className="naviWrapper">
       <NaviBits2 />
     </div>
   </div>

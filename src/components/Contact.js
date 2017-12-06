@@ -2,7 +2,7 @@ import React from 'react'
 
 const Contact = () =>
   <div className="contact">
-    <h2>Contact Info</h2>
+    <div className="contactInfo">Contact Info</div>
     <ul className="digits">
       <li>
         <div className="link">

@@ -1,24 +1,25 @@
 .naviWrapper {
-  display: flex;
-  background-color: #667;
-  flex-wrap: nowrap;
-  flex-direction: row;
+  background-color: #45484d;
 }
 .naviBits1 {
   border-style: solid;
-  border-color: red;
-  width: 49%;
+  border-width: thin;
+  border-color: rgb(167, 81, 10);
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  background: linear-gradient(to bottom, #45484d -400%, #000000 100%);
+  color: white;
 }
 .naviBits2 {
   border-style: solid;
-  border-color: red;
-  width: 49%;
+  border-width: thin;
+  border-color: rgb(167, 81, 10);
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  background: linear-gradient(to bottom, #45484d -200%, #000000 100%);
+  color: white;
 }
 .wtf,
 .wtf2 {
