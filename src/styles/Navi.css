@@ -1,5 +1,6 @@
 .naviWrapper {
   background-color: #45484d;
+  height: auto;
 }
 .naviBits1 {
   border-style: solid;
@@ -10,6 +11,8 @@
   flex-wrap: wrap;
   background: linear-gradient(to bottom, #45484d -400%, #000000 100%);
   color: white;
+  height: 50px;
+  width: 100%;
 }
 .naviBits2 {
   border-style: solid;
@@ -20,8 +23,23 @@
   flex-wrap: wrap;
   background: linear-gradient(to bottom, #45484d -200%, #000000 100%);
   color: white;
+  height: 50px;
+  width: 100%;
 }
 .wtf,
 .wtf2 {
   width: 100%;
+}
+.needSpace {
+  height: auto;
+  background-color: black;
+  color: #666;
+  text-align: right;
+}
+.buttonThree {
+  height: 100%;
+}
+.superDuperNaviWrapper {
+  display: flex;
+  flex-direction: column;
 }

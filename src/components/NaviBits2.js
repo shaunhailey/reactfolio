@@ -16,11 +16,14 @@ class NaviBits2 extends React.Component {
 
   render() {
     return (
-      <div className="naviBits2" onClick={() => this.onClick()}>
-        <div className="buttonThree">Click Here for Sample Projects</div>
-        <div className="wtf2">
-          {this.state.projectsVisible ? <Projects /> : null}
+      <div className="superNaviBits2">
+        <div className="naviBits2" onClick={() => this.onClick()}>
+          <div className="buttonThree">Click Here for Sample Projects</div>
+          <div className="wtf2">
+            {this.state.projectsVisible ? <Projects /> : null}
+          </div>
         </div>
+        <div className="needSpace">Shaun Hailey 2017 </div>
       </div>
     )
   }

@@ -9,7 +9,8 @@
 .meImages {
   width: 28%;
   border-style: groove;
-  border-width: thin;
+  border-width: medium;
+  border-color: rgb(167, 81, 10);
 }
 .fillerSpace {
   background-color: rgb(42, 43, 45);

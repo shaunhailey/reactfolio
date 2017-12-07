@@ -1,5 +1,6 @@
 * {
   font-family: 'Raleway', sans-serif;
+  color: #007680;
 }
 
 .App {
@@ -31,12 +32,6 @@
   }
 }
 
-.baseLayout {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-}
-
 .headerlist {
   background-color: white;
   display: flex;
@@ -44,11 +39,6 @@
 }
 .top {
   font-size: 36px;
-}
-
-.btn {
-  /*height: 35px;
-  width: 35px;*/
 }
 
 .homePage {
@@ -79,7 +69,7 @@ nav-link {
 }
 
 a:link {
-  color: rgb(235, 241, 250);
+  color: #007680;
   text-align: center;
   font-weight: lighter;
   letter-spacing: 5px;
@@ -87,22 +77,13 @@ a:link {
   text-decoration: none;
 }
 a:visited {
-  color: rgb(235, 241, 250);
+  color: #007680;
 }
 a:hover {
-  color: rgb(235, 241, 250);
+  color: #007680;
 }
 a:active {
-  color: rgb(235, 241, 250);
-}
-.references {
-  color: rgb(235, 241, 250);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  height: 100vh;
-  background-color: rgb(42, 43, 45);
-  font-family: 'Raleway', sans-serif;
+  color: #007680;
 }
 
 .portfolio {
@@ -155,4 +136,7 @@ h2 {
 .projectLayout {
   border: 20px rgb(42, 43, 45);
   border-style: solid none;
+}
+.topReact {
+  position: relative;
 }

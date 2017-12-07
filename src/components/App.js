@@ -7,14 +7,9 @@ import NaviBits1 from './NaviBits1.js'
 import NaviBits2 from './NaviBits2.js'
 
 const App = () =>
-  <div>
+  <div className="topReact">
     <Heading />
-    <div className="naviWrapper">
-      <NaviBits1 />
-    </div>
-    <div className="naviWrapper">
-      <NaviBits2 />
-    </div>
+    <Navi />
   </div>
 
 export default App
