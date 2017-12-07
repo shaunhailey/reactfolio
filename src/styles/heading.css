@@ -8,8 +8,8 @@
 }
 .meImages {
   width: 28%;
-  border-style: groove;
-  border-width: medium;
+  border-style: solid;
+  border-width: thin;
   border-color: rgb(167, 81, 10);
 }
 .fillerSpace {

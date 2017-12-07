@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import About from './About.js'
 import Projects from './Projects.js'
-import Home from './Home.js'
 import '../styles/Navi.css'
 
 class Navi extends Component {
