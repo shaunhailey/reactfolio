@@ -1,7 +1,5 @@
 import React, { Component } from 'react'
-import { Switch, Route, NavLink } from 'react-router-dom'
 import About from './About.js'
-import Contact from './Contact.js'
 import Projects from './Projects.js'
 import '../styles/space.css'
 

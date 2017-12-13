@@ -1,12 +1,11 @@
 import React from 'react'
 import SynthScreenShot from '../Images/SynthScreenShot.png'
 import Worste from '../Images/worstescreenshot.png'
-import Mars from '../Images/marsroverscreenshot.png'
 import '../styles/projects.css'
 
 const Projects = () =>
   <div className="Projects">
-    <h2>Selected Projects</h2>
+    <h1>Selected Projects</h1>
     <h3>Synth</h3>
     <p>
       Synth is a browser-based synthesizer utilizing the Tone.js API and Midi.js API. This was my final Demo Day project
