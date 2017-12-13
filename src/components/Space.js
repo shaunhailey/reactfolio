@@ -3,8 +3,6 @@ import { Switch, Route, NavLink } from 'react-router-dom'
 import About from './About.js'
 import Contact from './Contact.js'
 import Projects from './Projects.js'
-import NaviBits1 from './NaviBits1.js'
-import NaviBits2 from './NaviBits2.js'
 import '../styles/space.css'
 
 class Space extends Component {
@@ -30,10 +28,10 @@ class Space extends Component {
     return (
       <div className="space">
         <button type="button" className="toggleIt" onClick={this.handleAbout}>
-          About Me
+          Click here to learn about Shaun Hailey
         </button>
         <button type="button" className="toggleIt" onClick={this.handleProjects}>
-          Selected Projects
+          Click here to view selected projects
         </button>
         {this.state.about && <About />}
 

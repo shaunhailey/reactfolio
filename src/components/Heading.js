@@ -2,7 +2,6 @@ import React from 'react'
 import Contact from './Contact.js'
 import '../styles/heading.css'
 import Myself from '../Images/shaun.jpg'
-import ButtonNav from './ButtonNav.js'
 
 const Heading = () =>
   <div className="heading">
