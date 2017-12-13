@@ -22,7 +22,6 @@ class NaviBits2 extends React.Component {
             {this.state.projectsVisible ? <Projects /> : null}
           </div>
         </div>
-        <div className="needSpace">Shaun Hailey 2017 </div>
       </div>
     )
   }

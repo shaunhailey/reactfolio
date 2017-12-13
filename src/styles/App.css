@@ -1,6 +1,7 @@
 * {
   font-family: 'Raleway', sans-serif;
   color: #007680;
+  text-shadow: 0.5px 0.5px rgb(167, 81, 10);
 }
 
 .App {
@@ -80,10 +81,10 @@ a:visited {
   color: #007680;
 }
 a:hover {
-  color: #007680;
+  color: #5f5dc2;
 }
 a:active {
-  color: #007680;
+  color: #5f5dc2;
 }
 
 .portfolio {
@@ -138,5 +139,6 @@ h2 {
   border-style: solid none;
 }
 .topReact {
-  position: relative;
+  display: flex;
+  flex-direction: column;
 }

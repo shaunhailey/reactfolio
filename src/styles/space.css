@@ -1,0 +1,15 @@
+.toggleIt {
+  height: 5em;
+  width: 49.99%;
+  background-color: black;
+  border-style: solid;
+  border-color: rgb(167, 81, 10);
+}
+.space {
+  height: 10%;
+  background-color: black;
+}
+.emptyFill {
+  height: 10em;
+  background-color: black;
+}

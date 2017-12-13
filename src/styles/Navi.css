@@ -1,6 +1,8 @@
-.naviWrapper {
+.navi1Wrapper,
+.navi2Wrapper {
   background-color: #45484d;
   height: auto;
+  width: 100%;
 }
 .naviBits1 {
   border-style: solid;
@@ -41,5 +43,5 @@
 }
 .superDuperNaviWrapper {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
 }
